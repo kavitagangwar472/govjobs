@@ -11,9 +11,10 @@ urllib3.disable_warnings()
 DATA = Path(__file__).resolve().parent.parent / "data" / "jobs.json"
 RETENTION_DAYS, MAX_PER_SOURCE = 30, 40
 
-# Edit freely: org name, category (must match a chip on the site), page that lists notices.
+# Edit freely: (org, category, url[, state]). Add a state name as 4th item for state-level sources.
+# Old line: org name, category (must match a chip on the site), page that lists notices.
 SOURCES = [
-    ("UPSC", "SSC & UPSC", "https://upsc.gov.in/whats-new"),
+    ("UPSC", "SSC & UPSC", "https://www.sarkariresult.com/"),
     ("SSC", "SSC & UPSC", "https://ssc.gov.in/"),
     ("IBPS", "Banking", "https://www.ibps.in/"),
     ("SBI", "Banking", "https://sbi.co.in/web/careers/current-openings"),
@@ -27,6 +28,9 @@ SOURCES = [
 ]
 KEEP = re.compile(r"recruit|vacanc|notification|advertis|online application|engagement|walk-?in|bharti|apply", re.I)
 DROP = re.compile(r"result|admit card|answer key|tender|quotation|syllabus|cut-?off|corrigendum|merit list|shortlist|schedule|call letter|auction|procurement|archive|tutorial", re.I)
+QUAL = [("10th", r"\b10th\b|matric|class x\b"), ("12th", r"\b12th\b|intermediate|senior secondary"),
+        ("Graduate", r"graduat|degree|b\.?tech|bachelor|master"), ("Diploma/ITI", r"diploma|\bITI\b")]
+VAC = re.compile(r"(\d[\d,]{0,6})\s*(?:posts?|vacanc|seats?)", re.I)
 TEACH = re.compile(r"teacher|lecturer|professor|tgt|pgt|prt|faculty", re.I)
 UA = {"User-Agent": "Mozilla/5.0 (compatible; GovJobsDailyBot/1.0)"}
 MONTHS = {m: i for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
@@ -52,7 +56,7 @@ def parse_date(s):
     return None
 
 
-def scrape(org, cat, url):
+def scrape(org, cat, url, state="All India"):
     soup = BeautifulSoup(get(url), "html.parser")
     out = []
     for a in soup.find_all("a", href=True):
@@ -69,7 +73,9 @@ def scrape(org, cat, url):
             "id": hashlib.sha1(link.encode()).hexdigest()[:12],
             "title": title, "org": org,
             "category": "Teaching" if TEACH.search(title) else cat,
-            "url": link, "last_date": parse_date(m[2]) if m else None,
+            "url": link, "last_date": parse_date(m[2]) if m else None, "state": state,
+            "vac": int(v[1].replace(",", "")) if (v := VAC.search(ctx)) else None,
+            "qual": [q for q, rx in QUAL if re.search(rx, ctx, re.I)],
         })
     return out[:MAX_PER_SOURCE]
 
@@ -79,14 +85,16 @@ def main():
     old = json.loads(DATA.read_text()) if DATA.exists() else {"jobs": []}
     jobs = {j["id"]: j for j in old["jobs"] if not j.get("demo")}
     ok = 0
-    for org, cat, url in SOURCES:
+    for org, cat, url, *extra in SOURCES:
         try:
-            found = scrape(org, cat, url)
+            found = scrape(org, cat, url, extra[0] if extra else "All India")
             ok += 1
             new = 0
             for j in found:
                 if j["id"] in jobs:
                     jobs[j["id"]]["last_date"] = j["last_date"] or jobs[j["id"]].get("last_date")
+                    for k in ("vac", "qual", "state"):
+                        jobs[j["id"]][k] = jobs[j["id"]].get(k) or j[k]
                 else:
                     j["first_seen"] = today.isoformat()
                     jobs[j["id"]] = j
