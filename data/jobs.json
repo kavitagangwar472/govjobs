@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:02:40+00:00",
+ "updated": "2026-11-18T09:39:33+00:00",
  "jobs": [
   {
    "id": "c03eb0a37a9d",
@@ -8,7 +8,10 @@
    "category": "Banking",
    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "a94d0d0edd5c",
@@ -17,7 +20,10 @@
    "category": "Banking",
    "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "95393196d2b3",
@@ -26,7 +32,10 @@
    "category": "Banking",
    "url": "https://ibpsreg.ibps.in/manitboct26/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "90a7c5ee1474",
@@ -35,7 +44,10 @@
    "category": "Banking",
    "url": "https://ibpsreg.ibps.in/bpcljul26/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "a2371173a695",
@@ -44,7 +56,10 @@
    "category": "Banking",
    "url": "https://ibpsreg.ibps.in/jkbvpocto26/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "0a408fec243b",
@@ -53,7 +68,10 @@
    "category": "Banking",
    "url": "https://ibpsreg.ibps.in/sbirscooct26/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "70bc88f34c28",
@@ -62,7 +80,10 @@
    "category": "Banking",
    "url": "https://ibpsreg.ibps.in/sbiameoct26/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "048bc4042b69",
@@ -71,7 +92,10 @@
    "category": "Banking",
    "url": "https://www.ibps.in/index.php/recruitment/",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "bbd00f86f832",
@@ -80,7 +104,10 @@
    "category": "Banking",
    "url": "https://www.ibps.in/index.php/services",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "668ede07d2f2",
@@ -89,7 +116,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-26/apply",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "2a5dcdad15f8",
@@ -98,7 +128,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "cb47f1661b3c",
@@ -107,7 +140,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-30/apply",
    "last_date": "2026-11-16",
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "f42d2166aa6d",
@@ -116,7 +152,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
    "last_date": "2026-11-04",
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "d81f4539a0b7",
@@ -125,7 +164,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
    "last_date": "2026-11-04",
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "9239686f8761",
@@ -134,7 +176,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "9fd4c7856dbf",
@@ -143,7 +188,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "0fdf51e68636",
@@ -152,7 +200,10 @@
    "category": "Banking",
    "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-11/apply",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "3664fdf5fa10",
@@ -161,7 +212,10 @@
    "category": "Banking",
    "url": "https://sbi.co.in/web/careers/current-openings",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "eb79e1bb30c7",
@@ -206,7 +260,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/DOSRecruitment10.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "100746cebac6",
@@ -215,7 +272,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/DOSRecruitment11.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "a26f77d21354",
@@ -224,7 +284,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/ICRB_Recruitment9.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "e24be0e5ac41",
@@ -233,7 +296,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/LPSCRecruitment14.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "1350ed7e5890",
@@ -242,7 +308,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/IPRCRecruitment4.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "50a6acf303c7",
@@ -251,7 +320,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/SACRecruitment21.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "2642dd9f6d7a",
@@ -260,7 +332,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/URSCRecruitment2026_1.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   },
   {
    "id": "d7602bf74eb3",
@@ -269,7 +344,10 @@
    "category": "Other",
    "url": "https://www.isro.gov.in/LPSCRecruitment13.html",
    "last_date": null,
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "vac": null,
+   "qual": [],
+   "state": "All India"
   }
  ]
 }
