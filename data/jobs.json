@@ -1,0 +1,5 @@
+{"updated":"2026-11-18T00:00:00+00:00","jobs":[
+{"id":"demo1","demo":true,"title":"Sample: Probationary Officer Recruitment 2026","org":"Demo Bank","category":"Banking","url":"https://example.com","last_date":"2026-11-28","first_seen":"2026-11-18"},
+{"id":"demo2","demo":true,"title":"Sample: Junior Engineer (Civil) Vacancies","org":"Demo Railways","category":"Railways","url":"https://example.com","last_date":"2026-11-21","first_seen":"2026-11-18"},
+{"id":"demo3","demo":true,"title":"Sample: Combined Graduate Level Examination Notice","org":"Demo Commission","category":"SSC & UPSC","url":"https://example.com","last_date":null,"first_seen":"2026-11-18"}
+]}
