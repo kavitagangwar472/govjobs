@@ -1,5 +1,275 @@
-{"updated":"2026-11-18T00:00:00+00:00","jobs":[
-{"id":"demo1","demo":true,"title":"Sample: Probationary Officer Recruitment 2026","org":"Demo Bank","category":"Banking","url":"https://example.com","last_date":"2026-11-28","first_seen":"2026-11-18"},
-{"id":"demo2","demo":true,"title":"Sample: Junior Engineer (Civil) Vacancies","org":"Demo Railways","category":"Railways","url":"https://example.com","last_date":"2026-11-21","first_seen":"2026-11-18"},
-{"id":"demo3","demo":true,"title":"Sample: Combined Graduate Level Examination Notice","org":"Demo Commission","category":"SSC & UPSC","url":"https://example.com","last_date":null,"first_seen":"2026-11-18"}
-]}
+{
+ "updated": "2026-11-18T08:02:40+00:00",
+ "jobs": [
+  {
+   "id": "c03eb0a37a9d",
+   "title": "Notification for Common Recruitment Process for CRP- PO/MTs-XVI",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a94d0d0edd5c",
+   "title": "Notification for Common Recruitment Process for CRP- SPL-XVI",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "95393196d2b3",
+   "title": "MANIT Recruitment of various Group ‘B’ & ‘C’ Non-Teaching Positions Registration From 13-Nov-2026",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://ibpsreg.ibps.in/manitboct26/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "90a7c5ee1474",
+   "title": "BPCL Special Recruitment Drive for Persons with Benchmark Disabilities (PwBDs)/ Divyangjans Registration From 09-Nov-2026",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://ibpsreg.ibps.in/bpcljul26/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a2371173a695",
+   "title": "JKB Recruitment of Various Posts Registration From 07-Nov-2026",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://ibpsreg.ibps.in/jkbvpocto26/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "0a408fec243b",
+   "title": "SBI Recruitment of Specialist Cadre Officers (Manager (Security) / Deputy Manager (Security)) Registration From 04-Nov-2026",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://ibpsreg.ibps.in/sbirscooct26/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "70bc88f34c28",
+   "title": "SBI Recruitment of Specialist Cadre Officer (Assistant Manager -Engineer (Fire)) Registration From 04-Nov-2026",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://ibpsreg.ibps.in/sbiameoct26/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "048bc4042b69",
+   "title": "RECRUITMENT EXAMS",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://www.ibps.in/index.php/recruitment/",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "bbd00f86f832",
+   "title": "Personnel Selection Services for Recruitment, Promotion and Placement",
+   "org": "IBPS",
+   "category": "Banking",
+   "url": "https://www.ibps.in/index.php/services",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "668ede07d2f2",
+   "title": "APPLY ONLINE (02.11.2026 TO 23.11.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-26/apply",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "2a5dcdad15f8",
+   "title": "APPLY ONLINE (02.11.2026 TO 23.11.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-27/apply",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "cb47f1661b3c",
+   "title": "APPLY ONLINE (Online Registration Extended till 16.11.2026))",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-30/apply",
+   "last_date": "2026-11-16",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "f42d2166aa6d",
+   "title": "APPLY ONLINE (Online Registration Extended till 04.11.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-25/apply",
+   "last_date": "2026-11-04",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "d81f4539a0b7",
+   "title": "APPLY ONLINE (Online Registration Extended till 04.11.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-24/apply",
+   "last_date": "2026-11-04",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "9239686f8761",
+   "title": "APPLY ONLINE (16.10.2026 to 16.10.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-20/apply",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "9fd4c7856dbf",
+   "title": "APPLY ONLINE (16.09.2026 to 06.10.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-22/apply",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "0fdf51e68636",
+   "title": "APPLY ONLINE (07.08.2026 to 27.08.2026)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://recruitment.sbi.bank.in/crpd-sco-2026-27-11/apply",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "3664fdf5fa10",
+   "title": "NIL SELECTION, NO CANDIDATE FOUND SUITABLE FOR THE POST OF AVP (MANPOWER PLANNING & RECRUITMENT) AND AVP (LEARNING & DEVELOPMENT)",
+   "org": "SBI",
+   "category": "Banking",
+   "url": "https://sbi.co.in/web/careers/current-openings",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "eb79e1bb30c7",
+   "title": "Vacancies Vacancies",
+   "org": "India Post",
+   "category": "Other",
+   "url": "https://www.indiapost.gov.in/vacancies",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "eb63f94e363e",
+   "title": "Gazette Notifications Gazette Notifications",
+   "org": "India Post",
+   "category": "Other",
+   "url": "https://www.indiapost.gov.in/documents/gazzettenotifications",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "0314710b19f2",
+   "title": "Recruitment Rules Recruitment Rules",
+   "org": "India Post",
+   "category": "Other",
+   "url": "https://www.indiapost.gov.in/documents/recruitmentrules",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "81338d97b82e",
+   "title": "Notification regarding extension of Dhai Dkhar letter writing competition 2026-27 (opens in a new tab)",
+   "org": "India Post",
+   "category": "Other",
+   "url": "https://www.indiapost.gov.in/api/documents/file/103oj5x2hxq90k5cp3juh207i863cva60s5le3k9qj0ab6a08hnf01ff600gzm",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a2ea75db6597",
+   "title": "Extension of time for receipt of applications to the post of Group-A and Group-B in DOS Secretariat, Bengaluru, on deputation basis - Advertisement No : A.26011/1/2025-I (Vol.II) dated 09.10.2026 Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/DOSRecruitment10.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "100746cebac6",
+   "title": "ADVT NO. A.26012/1/2023-I (Vol.II) DATED 26.10.2026: - Inviting online applications for the post of Accounts Officer (Finance). Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/DOSRecruitment11.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a26f77d21354",
+   "title": "Selection Panel for the post of Scientist/Engineer 'SC' (Mechanical) against Advertisement No. ISRO:ICRB:02(EMC):2025 dated 27.05.2025. Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/ICRB_Recruitment9.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "e24be0e5ac41",
+   "title": "Advt. No. LPSC/03/2026 dated 26.09.2026 - Recruitment to the post of Scientist / Engineer 'SC' Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/LPSCRecruitment14.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "1350ed7e5890",
+   "title": "Advt. No. IPRC/RMT/2026/01 dated 12.09.2026 - Inviting online applications for the posts of Technical Assistant, Technician 'B', Cook 'A' and Fireman 'A'. Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/IPRCRecruitment4.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "50a6acf303c7",
+   "title": "Advt No. SAC:02:2026 dated 10.09.2026 - Inviting online applications for the posts of Junior Research Fellows, Research Associate and Project Scientist-I. Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/SACRecruitment21.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "2642dd9f6d7a",
+   "title": "Selection Panel for the post of Medical Officer- 'SC' against Advertisement No. URSC:01:2026 dated 21.03.2026. Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/URSCRecruitment2026_1.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "d7602bf74eb3",
+   "title": "Advt No. LPSC/02/2026 dated 15.08.2026 Recruitment to the post of Technical Assistant, Technician 'B', Draughtsman 'B' and Fireman 'A' in LPSC. Read More",
+   "org": "ISRO",
+   "category": "Other",
+   "url": "https://www.isro.gov.in/LPSCRecruitment13.html",
+   "last_date": null,
+   "first_seen": "2026-11-18"
+  }
+ ]
+}
