@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T10:13:20+00:00",
+ "updated": "2026-11-18T10:53:03+00:00",
  "jobs": [
   {
    "id": "c03eb0a37a9d",
@@ -763,6 +763,90 @@
    "org": "HSSC",
    "category": "State Govt",
    "url": "https://adv062026.hryssc.com",
+   "last_date": null,
+   "state": "Haryana",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "ceee1ca72dcf",
+   "title": "{{'Recruitment_HM' | translate }}",
+   "org": "UPPSC",
+   "category": "State Govt",
+   "url": "https://uppsc.up.nic.in/#",
+   "last_date": null,
+   "state": "Uttar Pradesh",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "19e52afefa7f",
+   "title": "Current Advertisement",
+   "org": "UPESSC",
+   "category": "Teaching",
+   "url": "https://upessc.up.gov.in/Content/MediaGallery/Documents/sahyukt_hetu_vigyapan.pdf",
+   "last_date": null,
+   "state": "Uttar Pradesh",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "6b82bbd0029d",
+   "title": "Recruitment Advertisements",
+   "org": "RPSC",
+   "category": "State Govt",
+   "url": "https://rpsc.rajasthan.gov.in/viewcommon?Slice=RA",
+   "last_date": null,
+   "state": "Rajasthan",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "3a882270d749",
+   "title": "Computer Based Recruitment Test (CBRT)",
+   "org": "RPSC",
+   "category": "State Govt",
+   "url": "https://rpsc.rajasthan.gov.in/cbrt",
+   "last_date": null,
+   "state": "Rajasthan",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "a44442603b57",
+   "title": "OTR/Apply Online (Recruitment Portal)",
+   "org": "RPSC",
+   "category": "State Govt",
+   "url": "https://rpsc.rajasthan.gov.in/applyonline",
+   "last_date": null,
+   "state": "Rajasthan",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "51408e201482",
+   "title": "17/08/2026 Appointment Letter Regarding Direct Recruitment of Fourth Class Employee -2024 (RPSC)",
+   "org": "RPSC",
+   "category": "State Govt",
+   "url": "https://rpsc.rajasthan.gov.in/~/Static/News/A3A52409810D46A0A2A0262947DCED36.pdf",
+   "last_date": null,
+   "state": "Rajasthan",
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "c398fa112cd9",
+   "title": "Announcement dated 16.11.2026 - Recruitment for the posts of Assistant Professor (College Cadre) in the subject of History (Advt. No. 53/2024), inadvertent inclusion of Roll No. 61540",
+   "org": "HPSC",
+   "category": "Teaching",
+   "url": "https://hpsc.gov.in/Portals/0/Ann_Inclus_Result_AP_History_16_11_2026.pdf",
    "last_date": null,
    "state": "Haryana",
    "vac": null,
