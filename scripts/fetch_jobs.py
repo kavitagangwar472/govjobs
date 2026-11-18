@@ -14,14 +14,28 @@ RETENTION_DAYS, MAX_PER_SOURCE = 30, 40
 # Edit freely: (org, category, url[, state]). Add a state name as 4th item for state-level sources.
 # Old line: org name, category (must match a chip on the site), page that lists notices.
 SOURCES = [
-    ("UPSC", "SSC & UPSC", "https://www.sarkariresult.com/"),
+    # --- Central (work from GitHub) ---
     ("SSC", "SSC & UPSC", "https://ssc.gov.in/"),
     ("IBPS", "Banking", "https://www.ibps.in/"),
     ("SBI", "Banking", "https://sbi.co.in/web/careers/current-openings"),
     ("RBI", "Banking", "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"),
-    ("DRDO RAC", "Defence", "https://rac.gov.in/"),
+    ("India Post", "Other", "https://www.indiapost.gov.in/"),
     ("ISRO", "Other", "https://www.isro.gov.in/Careers.html"),
     ("Employment News", "Other", "https://www.employmentnews.gov.in/"),
+    # Blocked from GitHub's servers in earlier tests (need an Indian IP): UPSC, RRB Chandigarh, DRDO RAC, Indian Army
+    # --- State (4th item = state name, powers the State filter) ---
+    ("UPSSSC", "State Govt", "https://upsssc.gov.in/", "Uttar Pradesh"),
+    ("UPPSC", "State Govt", "https://uppsc.up.nic.in/", "Uttar Pradesh"),
+    ("UP Police Recruitment Board", "Police", "https://uppbpb.gov.in/", "Uttar Pradesh"),
+    ("UPESSC", "Teaching", "https://upessc.up.gov.in/", "Uttar Pradesh"),
+    ("BPSC", "State Govt", "https://bpsc.bihar.gov.in/", "Bihar"),
+    ("BSSC", "State Govt", "https://bssc.bihar.gov.in/", "Bihar"),
+    ("Bihar Police (CSBC)", "Police", "https://csbc.bihar.gov.in/", "Bihar"),
+    ("RPSC", "State Govt", "https://rpsc.rajasthan.gov.in/", "Rajasthan"),
+    ("RSSB", "State Govt", "https://rssb.rajasthan.gov.in/", "Rajasthan"),
+    ("DSSSB", "State Govt", "https://dsssb.delhi.gov.in/", "Delhi"),
+    ("HSSC", "State Govt", "https://hssc.gov.in/", "Haryana"),
+    ("HPSC", "State Govt", "https://hpsc.gov.in/", "Haryana"),
 ]
 KEEP = re.compile(r"recruit|vacanc|notification|advertis|online application|engagement|walk-?in|bharti|apply", re.I)
 DROP = re.compile(r"result|admit card|answer key|tender|quotation|syllabus|cut-?off|corrigendum|merit list|shortlist|schedule|call letter|auction|procurement|archive|tutorial", re.I)
@@ -35,9 +49,9 @@ MONTHS = {m: i for i, m in enumerate("jan feb mar apr may jun jul aug sep oct no
 
 def get(url):
     try:
-        return requests.get(url, headers=UA, timeout=30).text
+        return requests.get(url, headers=UA, timeout=(8, 25)).text
     except requests.exceptions.SSLError:  # some gov sites have broken certificates
-        return requests.get(url, headers=UA, timeout=30, verify=False).text
+        return requests.get(url, headers=UA, timeout=(8, 25), verify=False).text
 
 
 def parse_date(s):
