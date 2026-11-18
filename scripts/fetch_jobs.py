@@ -25,8 +25,8 @@ SOURCES = [
     ("Employment News", "Other", "https://www.employmentnews.gov.in/"),
     # Blocked from GitHub's servers in earlier tests (need an Indian IP): UPSC, RRB Chandigarh, DRDO RAC, Indian Army
     # --- State (4th item = state name, powers the State filter) ---
-    ("UPSSSC", "State Govt", "https://upsssc.gov.in/", "Uttar Pradesh"),
-    ("UPPSC", "State Govt", "https://uppsc.up.nic.in/", "Uttar Pradesh"),
+    ("UPSSSC", "State Govt", "https://upsssc.gov.in/AllNotifications.aspx", "Uttar Pradesh"),
+    ("UPPSC", "State Govt", "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx", "Uttar Pradesh"),
     ("UP Police Recruitment Board", "Police", "https://uppbpb.gov.in/", "Uttar Pradesh"),
     ("UPESSC", "Teaching", "https://upessc.up.gov.in/", "Uttar Pradesh"),
     ("BPSC", "State Govt", "https://bpsc.bihar.gov.in/", "Bihar"),
