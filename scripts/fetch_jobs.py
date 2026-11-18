@@ -19,10 +19,7 @@ SOURCES = [
     ("IBPS", "Banking", "https://www.ibps.in/"),
     ("SBI", "Banking", "https://sbi.co.in/web/careers/current-openings"),
     ("RBI", "Banking", "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"),
-    ("RRB Chandigarh", "Railways", "https://www.rrbcdg.gov.in/"),
     ("DRDO RAC", "Defence", "https://rac.gov.in/"),
-    ("Indian Army", "Defence", "https://joinindianarmy.nic.in/"),
-    ("India Post", "Other", "https://www.indiapost.gov.in/"),
     ("ISRO", "Other", "https://www.isro.gov.in/Careers.html"),
     ("Employment News", "Other", "https://www.employmentnews.gov.in/"),
 ]
