@@ -14,3 +14,4 @@ Static site (`index.html`) + daily GitHub Action that refreshes `data/jobs.json`
 - Site name and colours: top of `index.html`.
 - Retention: `RETENTION_DAYS`.
 - The 3 "Sample" jobs are removed on the first run.
+  
