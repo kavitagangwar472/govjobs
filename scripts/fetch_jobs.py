@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Collect recruitment links from official sites into data/jobs.json (30-day retention)."""
-import hashlib, json, re, sys
+import hashlib, json, re, ssl, sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 import requests, urllib3
+from requests.adapters import HTTPAdapter
 from bs4 import BeautifulSoup
 
 urllib3.disable_warnings()
@@ -47,11 +48,35 @@ UA = {"User-Agent": "Mozilla/5.0 (compatible; GovJobsDailyBot/1.0)"}
 MONTHS = {m: i for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split(), 1)}
 
 
+class LegacyTLS(HTTPAdapter):
+    """Lets Python talk to older government servers that OpenSSL 3 rejects by default."""
+
+    def __init__(self, insecure=False, **kw):
+        self.insecure = insecure
+        super().__init__(**kw)
+
+    def init_poolmanager(self, *a, **k):
+        ctx = ssl.create_default_context()
+        ctx.options |= getattr(ssl, "OP_LEGACY_SERVER_CONNECT", 0x4)
+        if self.insecure:  # last resort for broken certificates
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+        k["ssl_context"] = ctx
+        super().init_poolmanager(*a, **k)
+
+
 def get(url):
-    try:
-        return requests.get(url, headers=UA, timeout=(8, 25)).text
-    except requests.exceptions.SSLError:  # some gov sites have broken certificates
-        return requests.get(url, headers=UA, timeout=(8, 25), verify=False).text
+    last = None
+    for mode in ("plain", "legacy", "insecure"):
+        try:
+            if mode == "plain":
+                return requests.get(url, headers=UA, timeout=(8, 25)).text
+            s = requests.Session()
+            s.mount("https://", LegacyTLS(insecure=(mode == "insecure")))
+            return s.get(url, headers=UA, timeout=(8, 25), verify=(mode != "insecure")).text
+        except requests.exceptions.SSLError as e:
+            last = e
+    raise last
 
 
 def parse_date(s):
