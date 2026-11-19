@@ -1,11 +1,5 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WBDSHCRM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>GovJobs Daily – Government jobs near you</title>
 <meta name="description" content="Fresh government job notifications from official sources, updated every day.">
@@ -156,7 +150,7 @@ const $=i=>document.getElementById(i);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const t0=new Date();t0.setHours(0,0,0,0);
 const days=d=>Math.round((new Date(d+"T00:00:00")-t0)/864e5);
-const fmt=d=>new Date(d+"T00:00:00").toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});
+const fmt=d=>{const x=new Date(d+"T00:00:00");return isNaN(x)?"See notice":x.toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"})};
 try{saved=JSON.parse(localStorage.getItem("gjd-saved")||"[]")}catch(e){}
 function opts(el,list,first){el.innerHTML='<option value="">'+first+'</option>'+list.map(x=>"<option>"+esc(x)+"</option>").join("")}
 function chips(box,list,set){
@@ -197,7 +191,10 @@ function draw(){
     '<div class="tags">'+(isNew?'<span class="tag new">New</span>':"")+'<span class="tag loc">'+esc(place)+'</span><span class="tag">'+esc(j.category)+"</span></div>"+
     '<dl class="facts"><div><dt>Vacancies</dt><dd>'+(j.vac?j.vac.toLocaleString("en-IN"):"See notice")+"</dd></div>"+
     "<div><dt>Qualification</dt><dd>"+(j.qual&&j.qual.length?esc(j.qual.join(" / ")):"See notice")+"</dd></div>"+
-    "<div><dt>Last date</dt><dd>"+(j.last_date?fmt(j.last_date):"See notice")+"</dd></div><div><dt>Listed on</dt><dd>"+fmt(j.first_seen)+"</dd></div></dl>"+
+    "<div><dt>Notification date</dt><dd>"+(j.notification_date?fmt(j.notification_date):"See notice")+"</dd></div>"+
+    "<div><dt>Last date</dt><dd>"+(j.last_date?fmt(j.last_date):"See notice")+"</dd></div>"+
+    "<div><dt>Exam date</dt><dd>"+(j.exam_date?fmt(j.exam_date):"Not announced")+"</dd></div>"+
+    "<div><dt>Listed on</dt><dd>"+fmt(j.first_seen)+"</dd></div></dl>"+
     '<div class="foot"><span class="left'+cl+'">'+left+'</span><a class="apply" href="'+esc(j.url)+'" target="_blank" rel="noopener">View official notice</a></div></article>'}).join(""):
     '<div class="empty"><b>No jobs match these filters.</b><p>Try another block, tick “Also show state-wide and All India jobs”, or clear the filters.</p></div>'}
 opts($("st"),STATES,"All states");

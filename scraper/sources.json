@@ -1,0 +1,15 @@
+[
+  {"org":"UPSC","state":"All India","category":"Civil Services","url":"https://upsc.gov.in/whats-new"},
+  {"org":"SSC","state":"All India","category":"SSC","url":"https://ssc.gov.in/home/notice-board"},
+  {"org":"Railway Recruitment Boards","state":"All India","category":"Railway","url":"https://www.rrbcdg.gov.in/"},
+  {"org":"IBPS","state":"All India","category":"Banking","url":"https://www.ibps.in/"},
+  {"org":"Employment News","state":"All India","category":"Other","url":"https://www.employmentnews.gov.in/"},
+  {"org":"DRDO","state":"All India","category":"Defence","url":"https://www.drdo.gov.in/drdo/en/offerings/careers"},
+  {"org":"ISRO","state":"All India","category":"Other","url":"https://www.isro.gov.in/Careers.html"},
+  {"org":"UPPSC","state":"Uttar Pradesh","category":"State PSC","url":"https://uppsc.up.nic.in/"},
+  {"org":"BPSC","state":"Bihar","category":"State PSC","url":"https://www.bpsc.bih.nic.in/"},
+  {"org":"HPSC","state":"Haryana","category":"State PSC","url":"https://hpsc.gov.in/"},
+  {"org":"RPSC","state":"Rajasthan","category":"State PSC","url":"https://rpsc.rajasthan.gov.in/"},
+  {"org":"MPSC","state":"Maharashtra","category":"State PSC","url":"https://mpsc.gov.in/"},
+  {"org":"DSSSB","state":"Delhi","category":"Delhi Govt","url":"https://dsssb.delhi.gov.in/"}
+]
