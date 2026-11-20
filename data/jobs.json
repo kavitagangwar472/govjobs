@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-19T11:48:59+00:00",
+ "updated": "2026-11-20T07:16:13+00:00",
  "jobs": [
+  {
+   "id": "5e748d761acc",
+   "title": "Notification for recruitment of Paramedical Staff in CISF - 2026 (English)",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=qApGTJweNPTn30V2j4XWjoJfapkEpCTR_eLMhdVzNk2vV3l_tYDdNkDCy7ua2TkW-Y9ad4BIj_FtLnkT62AtHrLo_4dpfQ3jhF58aLxRH6A",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "ebdd10332394",
+   "title": "Notification for recruitment of Paramedical Staff in CISF - 2026 (Hindi)",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=UQlNZl_Q8yhUiWdQOUQNDL9Fy8ZHfP7nCZORaRunHdljYIn0ZeUPcA6nzgk5WkEasL1GGOynfonkh4HSBQDDlVijnrutVafrBUs3eXdPXls",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "4091c1e319ae",
+   "title": "NOTICE FOR CAUTION REGARDING FRUDULENT RECRUITMENT/ APPOINTMENT",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=mNlcMYYr7A18mhscYveQkMto-eVAtoKO0UHezlAMViUXYFFU-q-MJthJPnvaN6i-NtxNR3dWkEbCXSwBMnISwQ",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
   {
    "id": "f56b5efd35eaf69e",
    "title": "ADVT NO. SDSC SHAR/RMT/03/2026 Dated 19.10.2026 Recruitment to the post of Technical Assistant, Scientific Assistant, Library Assistant ‘A’, Nurse ‘B’, Technician ‘B’/Draughtsman ‘B’, Fireman ‘A’, LVD",
