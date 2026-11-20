@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:16:13+00:00",
+ "updated": "2026-11-20T07:22:44+00:00",
  "jobs": [
   {
    "id": "5e748d761acc",
@@ -35,6 +35,48 @@
    "org": "CISF",
    "category": "Police",
    "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=mNlcMYYr7A18mhscYveQkMto-eVAtoKO0UHezlAMViUXYFFU-q-MJthJPnvaN6i-NtxNR3dWkEbCXSwBMnISwQ",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "4e2b5d3b6be7",
+   "title": "Notification for recruitment of Paramedical Staff in CISF - 2026 (English)",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=ZnjDtwATLIfl7loChCHZSYX398vZ0xRqpXUYe4QOv3cAC8S-fRynSJNKKK9k_-UswW_OVVjnr-gRqkpqfD-1EHtxd9pdRtn4eXAId2KKdjM",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "52fb3b0d96b6",
+   "title": "Notification for recruitment of Paramedical Staff in CISF - 2026 (Hindi)",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=BAP4WUbuGoDKlWXI1Pwv7wRrp72zm5pdSGlc98J4PvMLtsZxcf5-qlu1RiyEyQd-V3XtRV4z-L3d9uLDY6m78YdEd5kWpuT5qaQL9rMNRAk",
+   "state": "All India",
+   "notification_date": null,
+   "last_date": null,
+   "exam_date": null,
+   "vac": null,
+   "qual": [],
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "2e165cdf0c1a",
+   "title": "NOTICE FOR CAUTION REGARDING FRUDULENT RECRUITMENT/ APPOINTMENT",
+   "org": "CISF",
+   "category": "Police",
+   "url": "https://cisfrectt.cisf.gov.in/file_open.php?fnm=O74pqYJJb1zlfs86VDgE_3I3Af4ALwvGg60AK6KyOP4HgWsXQXjM1MzzHCsnk0MvigCvNCRGNlFoVW-wnC8rUg",
    "state": "All India",
    "notification_date": null,
    "last_date": null,
